@@ -102,12 +102,17 @@ function Header() {
                 <Link to={{ pathname: `/` }}>ABOUT</Link>
               </li>
               <li>
-                <Link to={{ pathname: `/work` }}>WORKS</Link>
+                <a href='https://blog.naver.com/ddefss1' target='_blank'>
+                  WORKS
+                </a>
               </li>
               <li>
                 <a href='https://blog.naver.com/ddefss1' target='_blank'>
-                  Blog
+                  BLOG
                 </a>
+              </li>
+              <li>
+                <Link to={{ pathname: `/work` }}>ARCHIVING</Link>
               </li>
               <li>
                 <Link to={{ pathname: `/contact` }}>CONTACT</Link>
