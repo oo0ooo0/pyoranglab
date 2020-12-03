@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Works from './Works';
+import Archiving from './Archiving';
 import About from './About';
 import Blog from './Blog';
 import Contact from './Contact';
@@ -25,7 +25,7 @@ function App() {
             <About />
           </Route>
 
-          <Route path={'/work'} exact>
+          <Route path={'/archiving'} exact>
             <LightgalleryProvider
               lightgallerySettings={
                 {
@@ -34,7 +34,7 @@ function App() {
               }
               galleryClassName='my_custom_classname'
             >
-              <Works />
+              <Archiving />
             </LightgalleryProvider>
           </Route>
 

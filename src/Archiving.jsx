@@ -5,7 +5,7 @@ import Masonry from 'react-masonry-css';
 import { useSelector } from 'react-redux';
 import { calcColumn } from './utils/common';
 
-const StyledWorks = styled.main`
+const StyledArchiving = styled.main`
   .my-masonry-grid {
     display: flex;
     margin-left: -5px; /* gutter size offset */
@@ -22,7 +22,7 @@ const StyledWorks = styled.main`
   }
 `;
 
-function Works() {
+function Archiving() {
   const works = useSelector((state) => state.works);
   const [columnNum, setColumnNum] = useState(calcColumn);
   function resizeHandler() {
@@ -37,8 +37,8 @@ function Works() {
   }, []);
 
   return (
-    <StyledWorks>
-      <h2 className='title'>Archive</h2>
+    <StyledArchiving>
+      {/* <h2 className='title'>Archiving</h2> */}
       {/* <h3> works.</h3> */}
       <Masonry breakpointCols={columnNum} className='my-masonry-grid' columnClassName='my-masonry-grid_column'>
         {Object.keys(works)
@@ -55,8 +55,8 @@ function Works() {
         className='lightwidget-widget'
         style='width:100%;border:0;overflow:hidden;'
       ></iframe> */}
-    </StyledWorks>
+    </StyledArchiving>
   );
 }
 
-export default Works;
+export default Archiving;
