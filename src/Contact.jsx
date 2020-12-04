@@ -51,18 +51,14 @@ function Contact() {
 
       <div className='container'>
         <div className='contactImg'>
-          <img src='img/1006.jpeg' alt='컨택트 이미지'></img>
+          <img src='img/contect.jpeg' alt='컨택트 이미지'></img>
         </div>
         <div className='myform'>
-          <h4>Cho-sang</h4>
-          <p>Media Art & Painting & Installation</p>
-          <address>
-            경기도 안산시 단원구 고잔동 640번지
-            <br />
-            서울예술대학교 영상학부 디지털아트과
-          </address>
+          <h4>AN.YOUNGSE</h4>
+          <p></p>
+          <address>Seoul, Republic of Korea</address>
           <div className='email'>
-            <a href='mail-to:cswart@never.com'>Email: cswart@never.com</a>
+            <a href='mailto:yongsedu@gmail.com'>Email: yongsedu@gmail.com</a>
           </div>
         </div>
       </div>
