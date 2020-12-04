@@ -18,9 +18,10 @@ const StyledHeader = styled.header`
       display: flex;
       justify-content: space-between;
       .logo {
+        display: flex;
+        align-items: center;
         a {
           display: block;
-          width: auto;
           img {
             width: 20vw;
           }
@@ -30,20 +31,19 @@ const StyledHeader = styled.header`
         /* border: 1px solid black; */
         width: 100%;
         display: flex;
+        justify-content: flex-end;
 
         ul {
-          margin-left: 400px;
-          width: 100%;
+          width: 600px;
           display: flex;
           justify-content: space-between;
-          align-items: right;
 
           li {
             padding: 30px 0px;
             a {
               margin-top: 10px;
               display: inline-block;
-              font: normal 900 18px/1 'Roboto Slab';
+              font: normal 900 1.5vw/1 'Roboto Slab';
               color: #1d1e21;
             }
           }
@@ -58,15 +58,20 @@ const StyledHeader = styled.header`
       .header-cont {
         display: block;
         width: 100%;
-        .logo a {
-          font-size: 45px;
+        .logo {
+          justify-content: center;
+          a img {
+            width: 40vw;
+          }
         }
         .gnb {
           margin-top: 20px;
           width: 100%;
+          justify-content: center;
+
           ul {
-            justify-content: space-between;
-            margin-left: 0px;
+            width: 90%;
+            margin-left: 5%;
             padding: 0px 4%;
             li {
               padding: 5px 0;
