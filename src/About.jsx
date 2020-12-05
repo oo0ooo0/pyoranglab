@@ -74,7 +74,7 @@ function About() {
         </div>
 
         <div className='textWrap'>
-          <h3 className='name'>An Yonce. Teaching Artist</h3>
+          <h3 className='name'>An YONGSE. Teaching Artist</h3>
           {/* <h3>안용세</h3> */}
           <p>
             서울예술대학교 연극과 졸업

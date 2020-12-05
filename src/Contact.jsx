@@ -55,7 +55,7 @@ function Contact() {
         </div>
         <div className='myform'>
           <h4>AN.YOUNGSE</h4>
-          <p></p>
+          <p> </p>
           <address>Seoul, Republic of Korea</address>
           <div className='email'>
             <a href='mailto:yongsedu@gmail.com'>Email: yongsedu@gmail.com</a>
