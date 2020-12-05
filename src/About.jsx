@@ -2,14 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledAbout = styled.main`
+  h2 {
+    font-size: 0px;
+  }
   .name {
     font-size: 25px;
   }
   main {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    padding: 20px 0px;
   }
   .imageWrap {
     text-align: center;
@@ -25,26 +26,26 @@ const StyledAbout = styled.main`
     border-bottom: 1px solid lightGray;
     padding: 20px;
     h3 {
-      font-size: 40px;
-      margin-bottom: 40px;
+      font-size: 5vw;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 3vw;
+      letter-spacing: 4.2px;
+      margin-bottom: 100px;
     }
     p {
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 20px;
     }
     ul {
-      font-size: 15px;
+      font-size: 20px;
       margin-top: 10px;
     }
-    .solo {
-      display: inline-block;
-      margin-bottom: 30px;
-    }
-  }
-  @media (max-width: 1024px) {
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     main {
       display: block;
       .imageWrap {
@@ -54,9 +55,16 @@ const StyledAbout = styled.main`
         border-top: 0px solid lightGray;
         border-bottom: 0px solid lightGray;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         h3 {
-          font-size: 35px;
-          word-spacing: -9px;
+          font-size: 8vw;
+          letter-spacing: 2px;
+        }
+        h4 {
+          font-size: 5vw;
+          letter-spacing: 2px;
         }
       }
     }
@@ -74,7 +82,8 @@ function About() {
         </div>
 
         <div className='textWrap'>
-          <h3 className='name'>An YONGSE. Teaching Artist</h3>
+          <h3 className='name'>ANYONGSE</h3>
+          <h4>|Teaching Artist|</h4>
           {/* <h3>안용세</h3> */}
           <p>
             서울예술대학교 연극과 졸업

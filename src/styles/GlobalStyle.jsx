@@ -42,6 +42,9 @@ figure {
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto','Noto Sans JP', sans-serif;
+}
 /* link reset */
 a {
   color: #1d1e21;
@@ -54,37 +57,37 @@ a:hover {
 
 /* text reset  */
 h1 {
-  font: normal 900 35px/1.2 'Roboto Slab';
+  font: normal 900 35px/1.2 'Roboto';
   color: #1d1e21;
 }
 
 h2 {
-  font: normal 900 30px/1.2 'Roboto Slab';
+  font: normal 900 30px/1.2 'Roboto';
   color: #1d1e21;
 }
 
 h3 {
-  font: normal 500 14px/42px 'Roboto Slab';
+  font: normal 500 14px/42px 'Roboto';
   color: #1d1e21;
 }
 
 h4 {
-  font: normal 900 25px/1.1   'Roboto Slab';
+  font: normal 900 25px/1.1   'Roboto';
   color: #1d1e21;
 }
 h5 {
-  font: normal 900 20px/34px 'Roboto Slab';
+  font: normal 900 20px/34px 'Roboto';
   color: #1d1e21;
 }
 
 p {
-  font: normal 400 10px 'Roboto Slab';
+  font: normal 400 10px 'Roboto';
   color: #1d1e21;
 }
 
 /* font reset */
 body {
-  font: normal 400 10px/1.5 'Roboto Slab';
+  font: normal 400 10px/1.5 'Roboto';
 }
 
 /* font style reset */
