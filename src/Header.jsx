@@ -151,12 +151,20 @@ function Header() {
                 <Link to={{ pathname: `/` }}>ABOUT</Link>
               </li>
               <li>
-                <a href='https://blog.naver.com/ddefss1' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://m.blog.naver.com/PostList.nhn?blogId=ddefss1&categoryNo=32&listStyle=style3'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   WORKS
                 </a>
               </li>
               <li>
-                <a href='https://blog.naver.com/ddefss1' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://m.blog.naver.com/PostList.nhn?blogId=ddefss1&categoryNo=26&listStyle=style3'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   BLOG
                 </a>
               </li>
@@ -168,7 +176,6 @@ function Header() {
               </li>
             </ul>
           </div>
-          {/* //gnb */}
         </div>
       </div>
     </StyledHeader>
