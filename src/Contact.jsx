@@ -3,6 +3,9 @@ import styled from 'styled-components';
 
 const StyledContact = styled.main`
   height: 65vh;
+  h2 {
+    font-size: 0px;
+  }
   .container {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -26,6 +29,7 @@ const StyledContact = styled.main`
       align-items: center;
       width: 60%;
       padding: 14px;
+      font-size: 15px;
       h4 {
         font-size: 35px;
       }
@@ -34,12 +38,14 @@ const StyledContact = styled.main`
       }
     }
   }
-  @media (max-width: 768px) {
-    .contactImg {
-      display: none;
-    }
+  @media (max-width: 960px) {
     .container {
-      margin: 40px 0px;
+      flex-direction: column;
+      .contactImg {
+        width: 60%;
+      }
+      .container {
+      }
     }
   }
 `;
@@ -54,7 +60,8 @@ function Contact() {
           <img src='img/contect.jpeg' alt='컨택트 이미지'></img>
         </div>
         <div className='myform'>
-          <h4>AN.YOUNGSE</h4>
+          <h4>AN.YONGSE</h4>
+          <h5>|Teaching Artist|</h5>
           <p> </p>
           <address>Seoul, Republic of Korea</address>
           <div className='email'>
