@@ -27,26 +27,26 @@ const StyledAbout = styled.main`
     padding: 20px;
     color: #383838;
     h3 {
-      font: normal 500 30px/34px 'Roboto';
+      font: normal 600 30px/34px 'Roboto';
       letter-spacing: 5px;
       margin: 50px 0px 50px 0px;
       color: #383838;
     }
     h4 {
-      font: normal 500 28px/32px 'Roboto';
+      font: normal 600 28px/32px 'Roboto';
       color: #383838;
     }
     h5 {
-      font: normal 500 28px/32px 'Roboto';
+      font: normal 600 28px/32px 'Roboto';
       color: #383838;
     }
     h6 {
-      font: normal 500 25px/32px 'Roboto';
+      font: normal 600 25px/32px 'Roboto';
       margin: 20px 0px 50px 0px;
     }
     p {
       color: #383838;
-      font: normal 500 23px/25px 'Roboto';
+      font: normal 600 23px/25px 'Roboto';
       margin-bottom: 20px;
     }
     ul {
