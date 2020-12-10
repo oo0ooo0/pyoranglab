@@ -25,18 +25,28 @@ const StyledAbout = styled.main`
     border-top: 1px solid lightGray;
     border-bottom: 1px solid lightGray;
     padding: 20px;
+    color: #383838;
     h3 {
-      font-size: 5vw;
-      letter-spacing: 2px;
-      margin-bottom: 10px;
+      font: normal 600 30px/34px 'Roboto';
+      letter-spacing: 5px;
+      margin: 50px 0px 50px 0px;
+      color: #383838;
     }
     h4 {
-      font-size: 3vw;
-      letter-spacing: 4.2px;
-      margin-bottom: 100px;
+      font: normal 600 28px/32px 'Roboto';
+      color: #383838;
+    }
+    h5 {
+      font: normal 600 28px/32px 'Roboto';
+      color: #383838;
+    }
+    h6 {
+      font: normal 600 25px/32px 'Roboto';
+      margin: 20px 0px 50px 0px;
     }
     p {
-      font-size: 20px;
+      color: #383838;
+      font: normal 600 23px/25px 'Roboto';
       margin-bottom: 20px;
     }
     ul {
@@ -82,15 +92,16 @@ function About() {
         </div>
 
         <div className='textWrap'>
-          <h3 className='name'>ANYONGSE</h3>
-          <h4>|Teaching Artist|</h4>
-          {/* <h3>안용세</h3> */}
+          <h3>안용세</h3>
+          <h4 className='name'>AN YONGSE,</h4>
+          <h5>Creative Art & Teaching Artist</h5>
+          <h6>program Director & Teaching Artist</h6>
           <p>
-            서울예술대학교 연극과 졸업
+            서울예술대학교 공연학부 연극과 졸업
             <br />
             서울교육대학교 교육전문대학원 교육연극전공 MEd
             <br /> <br />
-            현, 창의예술교육 표랑 예술교육가
+            현, 성남문화재단 창의교육팀 소속 예술교육가(TA)
           </p>
           <p>​</p>
           <ul>
