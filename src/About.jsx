@@ -25,23 +25,36 @@ const StyledAbout = styled.main`
     border-top: 1px solid lightGray;
     border-bottom: 1px solid lightGray;
     padding: 20px;
+    color: #383838;
     h3 {
-      font-size: 5vw;
-      letter-spacing: 2px;
-      margin-bottom: 10px;
+      font: normal 500 30px/34px 'Roboto';
+      letter-spacing: 5px;
+      margin: 50px 0px 50px 0px;
+      color: #383838;
     }
     h4 {
-      font-size: 3vw;
-      letter-spacing: 4.2px;
-      margin-bottom: 100px;
+      font: normal 500 28px/32px 'Roboto';
+      color: #383838;
+    }
+    h5 {
+      font: normal 500 28px/32px 'Roboto';
+      color: #383838;
+    }
+    h6 {
+      font: normal 500 25px/32px 'Roboto';
+      margin: 20px 0px 50px 0px;
     }
     p {
-      font-size: 20px;
+      color: #383838;
+      font: normal 500 23px/25px 'Roboto';
       margin-bottom: 20px;
     }
     ul {
-      font-size: 20px;
-      margin-top: 10px;
+      font: normal 400 23px/50px 'Roboto';
+      margin-top: 30px;
+      li {
+        line-height: 32px;
+      }
     }
   }
 
@@ -82,21 +95,22 @@ function About() {
         </div>
 
         <div className='textWrap'>
-          <h3 className='name'>ANYONGSE</h3>
-          <h4>|Teaching Artist|</h4>
-          {/* <h3>안용세</h3> */}
+          <h3>안용세</h3>
+          <h4 className='name'>AN YONGSE,</h4>
+          <h5>Creative Art & Teaching Artist</h5>
+          <h6>program Director & Teaching Artist</h6>
           <p>
-            서울예술대학교 연극과 졸업
+            서울예술대학교 공연학부 연극과 졸업
             <br />
             서울교육대학교 교육전문대학원 교육연극전공 MEd
             <br /> <br />
-            현, 창의예술교육 표랑 예술교육가
+            현, 성남문화재단 창의교육팀 소속 예술교육가(TA)
           </p>
           <p>​</p>
           <ul>
             <li className='solo'>
-              Areas of Expertise:
               <ul>
+                Areas of Expertise:
                 <li>시민 연극 (Applied Theatre)</li>
                 <li>교육 연극 (Drama Education)</li>
                 <li>사회 참여 예술 (Socially Engaged Art)</li>
@@ -105,8 +119,8 @@ function About() {
               </ul>
             </li>
             <li className='solo'>
-              Journals:
               <ul>
+                Journals:
                 <li>
                   (2020). 창의적 움직임을 적용한 초등 드라마 활동 질적 사례 연구: 라반의 움직임 이론을 중심으로.
                   교육연극학, 12(1), 123-144.
@@ -114,8 +128,8 @@ function About() {
               </ul>
             </li>
             <li className='group'>
-              Current Projects:
               <ul>
+                Current Projects:
                 <li>• 2020 아동.청소년극 ‘오늘도 바람’, 아이들극장 공연 배우</li>
                 <li>• 2020 아동.청소년극 ‘보이야르의 노래’, 아이들극장 공연 조연출</li>
                 <li>• 2020 ITAC5(International Teaching Artist Conference) ‘만질 수 있는 이야기들’ 워크숍 발제</li>
