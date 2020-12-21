@@ -122,7 +122,7 @@ const StyledHeader = styled.header`
         .gnb {
           width: 90%;
           ul li a {
-            font-size: 4.3vw;
+            font: normal 500 4.1vw/1 'Roboto';
             letter-spacing: -0.3px;
           }
         }

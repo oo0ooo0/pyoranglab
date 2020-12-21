@@ -18,17 +18,19 @@ const StyledFooter = styled.footer`
     > div {
       text-align: center;
     }
+    .builtBy {
+      margin-top: 5px;
+      font-size: 5px;
+
+      > a {
+        font-size: 5px;
+      }
+    }
     p,
     div,
     a {
       font-size: 12px;
       color: gray;
-    }
-  }
-  .builtBy {
-    margin-top: 5px;
-    a {
-      size: 5px;
     }
   }
 
@@ -78,9 +80,8 @@ function Footer() {
           </div>
           <div className='address'>
             <p>
-              sns&nbsp; &nbsp;
               <a href='https://www.instagram.com/an_yongse/' target='_blank' rel='noopener noreferrer'>
-                |&nbsp; &nbsp;instagram
+                &nbsp; &nbsp;instagram
               </a>
               <a href='https://www.facebook.com/YONGSEDU' target='_blank' rel='noopener noreferrer'>
                 &nbsp; &nbsp; facebook &nbsp; &nbsp;
