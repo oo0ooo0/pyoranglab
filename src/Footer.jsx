@@ -5,7 +5,7 @@ import { LayoutContainer } from './components/Containers';
 const StyledFooter = styled.footer`
   border-top: 1px solid lightGray;
   margin-top: 100px;
-  padding: 5px 0px;
+  padding: 5px 10px;
   color: gray;
   .footer {
     > div {

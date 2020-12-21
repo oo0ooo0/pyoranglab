@@ -64,9 +64,7 @@ function Contact() {
           <h5>|Teaching Artist|</h5>
           <p> </p>
           <address>Seoul, Republic of Korea</address>
-          <div className='email'>
-            <a href='mailto:yongsedu@gmail.com'>Email: yongsedu@gmail.com</a>
-          </div>
+          <div className='email'>{/* <a href='mailto:yongsedu@gmail.com'>Email: yongsedu@gmail.com</a> */}</div>
         </div>
       </div>
     </StyledContact>

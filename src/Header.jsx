@@ -120,10 +120,10 @@ const StyledHeader = styled.header`
           }
         }
         .gnb {
-          width: 80%;
+          width: 90%;
           ul li a {
-            font-size: 12px;
-            letter-spacing: -0.5px;
+            font-size: 4.3vw;
+            letter-spacing: -0.3px;
           }
         }
       }

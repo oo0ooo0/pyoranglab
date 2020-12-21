@@ -29,12 +29,13 @@ const StyledAbout = styled.main`
       h3 {
         font: normal 500 30px/34px 'Roboto';
         letter-spacing: 5px;
-        margin: 50px 0px 50px 0px;
+        margin: 50px 0px 20px 0px;
         color: #383838;
       }
       h4 {
         font: normal 500 28px/32px 'Roboto';
         color: #383838;
+        margin: 0px 0px 20px 0px;
       }
       h5 {
         font: normal 500 28px/32px 'Roboto';
@@ -50,17 +51,15 @@ const StyledAbout = styled.main`
         margin-bottom: 20px;
       }
       ul {
-        font: normal 400 23px/50px 'Roboto';
-        margin-top: 30px;
-        li {
-          font: normal 400 19px/50px 'Roboto';
+        font: normal 400 23px/30px 'Roboto';
+        margin-top: 15px;
+        > li {
+          font: normal 400 19px/30px 'Roboto';
           line-height: 32px;
-        }
-        li li {
-          /* font-size: 18px; */
-          list-style: circle;
-          text-align: justify;
-          margin-left: 30px;
+          li {
+            list-style: circle;
+            margin-left: 30px;
+          }
         }
       }
     }
@@ -91,21 +90,31 @@ const StyledAbout = styled.main`
         display: flex;
         flex-direction: column;
         align-items: flex-flex-start;
-        h3 {
-          font-size: 8vw;
-          letter-spacing: 2px;
-        }
+        h3,
         h4 {
-          font-size: 5vw;
+          font-size: 6vw;
           letter-spacing: 2px;
+          line-height: 1;
+        }
+        h5,
+        h6 {
+          line-height: 1.4;
+          font-size: 4vw;
+          letter-spacing: 2px;
+          margin: 0px;
+        }
+        > p {
+          font-size: 4vw;
+          line-height: 1.4;
+          margin-top: 30px;
         }
         ul {
+          font: normal 400 3.8vw/50px 'Roboto';
           li {
+            font: normal 400 3.8vw/1.5 'Roboto';
           }
           li li {
             list-style: circle;
-            text-align: left;
-            margin-left: 30px;
           }
         }
       }
@@ -135,7 +144,6 @@ function About() {
             <br /> <br />
             현, 성남문화재단 창의교육팀 예술교육가(TA)
           </p>
-          <p>​</p>
           <ul>
             <li className='expertise'>
               <ul>
