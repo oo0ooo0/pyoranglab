@@ -52,11 +52,17 @@ const StyledContact = styled.main`
       width: 90%;
       padding: 14px;
       font-size: 15px;
+
       h4 {
         font-size: 35px;
       }
       address {
         margin: 15px 0px;
+      }
+      .address {
+        p a i {
+          color: #444;
+        }
       }
     }
   }
@@ -64,6 +70,9 @@ const StyledContact = styled.main`
     .container {
       width: 90%;
       flex-direction: column;
+      .thumbnail-wrappper {
+        width: 70%;
+      }
       .myform {
         display: flex;
         flex-direction: column;
@@ -77,6 +86,9 @@ const StyledContact = styled.main`
         }
         address {
           margin: 12px 0px;
+        }
+        .address p a i {
+          color: #666;
         }
       }
     }
@@ -99,8 +111,28 @@ function Contact() {
         <div className='myform'>
           <h4>AN.YONGSE</h4>
           <h5>|Teaching Artist|</h5>
-          <p> </p>
           <address>Seoul, Republic of Korea</address>
+          <div className='address'>
+            <p>
+              <a href='https://www.instagram.com/an_yongse/' target='_blank' rel='noopener noreferrer'>
+                <i class='fab fa-instagram-square fa-3x'></i>
+              </a>
+
+              <a
+                href='https://www.facebook.com/YONGSEDU
+'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                &nbsp; &nbsp;
+                <i class='fab fa-facebook-square fa-3x'></i>
+                &nbsp; &nbsp;
+              </a>
+              <a href='mailto:yongsedu@gmail.com' target='_blank' rel='noopener noreferrer'>
+                <i class='fas fa-envelope-square fa-3x'></i>
+              </a>
+            </p>
+          </div>
           <div className='email'>{/* <a href='mailto:yongsedu@gmail.com'>Email: yongsedu@gmail.com</a> */}</div>
         </div>
       </div>
