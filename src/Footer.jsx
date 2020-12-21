@@ -25,7 +25,9 @@ function Footer() {
     <StyledFooter>
       <LayoutContainer width={100}>
         <div className='footer'>
-          <div className='copyWrites'>ⓒ 2020. &nbsp; ANYONGSE |Teaching Artist| . All rights reserved</div>
+          <div className='copyWrites'>
+            ⓒ 2020. &nbsp; ANYONGSE |Program Director & Teaching Artist| . All rights reserved
+          </div>
           <div className='address'>
             <p>
               <a
