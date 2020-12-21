@@ -59,6 +59,7 @@ const StyledAbout = styled.main`
         li li {
           /* font-size: 18px; */
           list-style: circle;
+          text-align: justify;
           margin-left: 30px;
         }
       }
@@ -75,9 +76,11 @@ const StyledAbout = styled.main`
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 580px) {
     main {
       display: block;
+      display: flex;
+      flex-direction: column;
       .imageWrap {
         width: 100%;
       }
@@ -87,7 +90,7 @@ const StyledAbout = styled.main`
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-flex-start;
         h3 {
           font-size: 8vw;
           letter-spacing: 2px;
