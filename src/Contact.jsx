@@ -5,10 +5,12 @@ const StyledContact = styled.main`
   h2 {
     font-size: 0px;
   }
+  display: flex;
+  justify-content: center;
   .container {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +20,7 @@ const StyledContact = styled.main`
       width: 50%;
       .thumbnail {
         position: relative;
-        padding-top: 100%; /* 1:1 ratio */
+        padding-top: 70%; /* 1:1 ratio */
         overflow: hidden;
         .centered {
           position: absolute;
@@ -47,7 +49,7 @@ const StyledContact = styled.main`
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 60%;
+      width: 90%;
       padding: 14px;
       font-size: 15px;
       h4 {
@@ -60,11 +62,22 @@ const StyledContact = styled.main`
   }
   @media (max-width: 960px) {
     .container {
+      width: 90%;
       flex-direction: column;
-      .contactImg {
-        width: 60%;
-      }
-      .container {
+      .myform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h4 {
+          font-size: 4vw;
+        }
+        h5 {
+          font-size: 3.2vw;
+        }
+        address {
+          margin: 12px 0px;
+        }
       }
     }
   }
