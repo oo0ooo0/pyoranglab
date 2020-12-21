@@ -11,56 +11,56 @@ const StyledAbout = styled.main`
   main {
     display: flex;
     justify-content: space-between;
-  }
-  .imageWrap {
-    text-align: center;
-    width: 40%;
-    img {
-      width: 100%;
-    }
-  }
-  .textWrap {
-    width: 55%;
-    text-align: left;
-    border-top: 1px solid lightGray;
-    border-bottom: 1px solid lightGray;
-    padding: 20px;
-    color: #383838;
-    h3 {
-      font: normal 500 30px/34px 'Roboto';
-      letter-spacing: 5px;
-      margin: 50px 0px 50px 0px;
-      color: #383838;
-    }
-    h4 {
-      font: normal 500 28px/32px 'Roboto';
-      color: #383838;
-    }
-    h5 {
-      font: normal 500 28px/32px 'Roboto';
-      color: #383838;
-    }
-    h6 {
-      font: normal 500 25px/32px 'Roboto';
-      margin: 20px 0px 50px 0px;
-    }
-    p {
-      color: #383838;
-      font: normal 500 23px/25px 'Roboto';
-      margin-bottom: 20px;
-    }
-    ul {
-      font: normal 400 23px/50px 'Roboto';
-      margin-top: 30px;
-      li {
-        font: normal 400 19px/50px 'Roboto';
-        line-height: 32px;
+
+    .imageWrap {
+      text-align: center;
+      width: 40%;
+      img {
+        width: 100%;
       }
-      li li {
-        /* font-size: 18px; */
-        list-style: circle;
-        text-align: justify;
-        margin-left: 30px;
+    }
+    .textWrap {
+      width: 50%;
+      text-align: left;
+      border-top: 1px solid lightGray;
+      border-bottom: 1px solid lightGray;
+      padding: 20px;
+      color: #383838;
+      h3 {
+        font: normal 500 30px/34px 'Roboto';
+        letter-spacing: 5px;
+        margin: 50px 0px 50px 0px;
+        color: #383838;
+      }
+      h4 {
+        font: normal 500 28px/32px 'Roboto';
+        color: #383838;
+      }
+      h5 {
+        font: normal 500 28px/32px 'Roboto';
+        color: #383838;
+      }
+      h6 {
+        font: normal 500 25px/32px 'Roboto';
+        margin: 20px 0px 50px 0px;
+      }
+      p {
+        color: #383838;
+        font: normal 500 23px/25px 'Roboto';
+        margin-bottom: 20px;
+      }
+      ul {
+        font: normal 400 23px/50px 'Roboto';
+        margin-top: 30px;
+        li {
+          font: normal 400 19px/50px 'Roboto';
+          line-height: 32px;
+        }
+        li li {
+          /* font-size: 18px; */
+          list-style: circle;
+          margin-left: 30px;
+        }
       }
     }
   }
@@ -123,14 +123,14 @@ function About() {
         <div className='textWrap'>
           <h3>안용세</h3>
           <h4 className='name'>AN YONGSE,</h4>
-          <h5>Creative Art & Teaching Artist</h5>
-          <h6>program Director & Teaching Artist</h6>
+          <h5>Creative Arts & Education</h5>
+          <h6>Program Director & Teaching Artist</h6>
           <p>
             서울예술대학교 공연학부 연극과 졸업
             <br />
             서울교육대학교 교육전문대학원 교육연극전공 MEd
             <br /> <br />
-            현, 성남문화재단 창의교육팀 소속 예술교육가(TA)
+            현, 성남문화재단 창의교육팀 예술교육가(TA)
           </p>
           <p>​</p>
           <ul>
