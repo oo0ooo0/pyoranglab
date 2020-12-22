@@ -1,7 +1,6 @@
 import { createStore, compose } from 'redux';
 import { rootReducer } from './reducers';
 import dummyWorksData from '../dummy/works.json';
-import dummyMediaData from '../dummy/medias.json';
 
 ///////////////////////////////////////
 ////
@@ -49,7 +48,6 @@ function toKeyValueID(array) {
 
 const initialState = {
   works: toKeyValueID(dummyWorksData.data.list),
-  media: toKeyValueID(dummyMediaData.data.list),
 };
 
 /////////////////////////////////////////////////////////////////
