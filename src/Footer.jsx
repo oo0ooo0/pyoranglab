@@ -20,10 +20,10 @@ const StyledFooter = styled.footer`
     }
     .builtBy {
       margin-top: 5px;
-      font-size: 5px;
+      font-size: 10px;
 
       > a {
-        font-size: 5px;
+        font-size: 10px;
       }
     }
     p,
