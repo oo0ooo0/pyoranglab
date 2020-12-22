@@ -2735,10 +2735,10 @@ brorand@^1.0.1:
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
-browser-or-node@^1.1.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/browser-or-node/-/browser-or-node-1.2.1.tgz#cd65172da6a7fd689c7a650d326bd2ad145419a7"
-  integrity sha512-sVIA0cysIED0nbmNOm7sZzKfgN1rpFmrqvLZaFWspaBAftfQcezlC81G6j6U2RJf4Lh66zFxrCeOsvkUXIcPWg==
+browser-or-node@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/browser-or-node/-/browser-or-node-1.3.0.tgz#f2a4e8568f60263050a6714b2cc236bb976647a7"
+  integrity sha512-0F2z/VSnLbmEeBcUrSuDH5l0HxTXdQQzLjkmBR4cYfvg1zJrKSlmIZFqyFR8oX0NrwPhy3c3HQ6i3OxMbew4Tg==
 
 browser-process-hrtime@^0.1.2:
   version "0.1.3"
@@ -5288,7 +5288,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -6700,15 +6700,15 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lg-autoplay.js@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lg-autoplay.js/-/lg-autoplay.js-1.0.0.tgz#08307dd4183ec3d3a23c345890a41a5c64fe3751"
-  integrity sha1-CDB91Bg+w9OiPDRYkKQaXGT+N1E=
+lg-autoplay.js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/lg-autoplay.js/-/lg-autoplay.js-1.2.0.tgz#1024bfb8894a9600a27bb2867256f03da747c750"
+  integrity sha512-B7KGZhaq69Kv+SGAKb7kmOT3E0CJBFTa3HnmQFSVjpn1tkWm7GtcDRXYtEDcjRSixFHN6M0X/uFji/4uYk6vpg==
 
-lg-fullscreen.js@^1.0.0, lg-fullscreen.js@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/lg-fullscreen.js/-/lg-fullscreen.js-1.1.0.tgz#f2af474bd6b0febfc24c4a7cc44bac032bc8f84b"
-  integrity sha512-/GVqIWyF4+gSeIllPksmpS+ukTljY1xder2Fgn4Y8y7o1yPZY0yuS2JuNMIQspkF0KiZu1PBQOgBUkgQm5eO4w==
+lg-fullscreen.js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/lg-fullscreen.js/-/lg-fullscreen.js-1.2.0.tgz#9283f1daaa7d53c5ffa9ed0604ec99053ea0b404"
+  integrity sha512-cn4aOV4kuBAdtWJ7VcmmNfnIlNOF9pfa58Y708viZo9DrFQP3rDrwgx3fnol7GlBH+C/LwnGxy+bjaD4Abv3zg==
 
 lg-hash.js@^1.0.0:
   version "1.0.0"
@@ -6720,30 +6720,30 @@ lg-pager.js@^1.0.0:
   resolved "https://registry.yarnpkg.com/lg-pager.js/-/lg-pager.js-1.0.0.tgz#62a5f07f9f976cae7cfdb1dbd3e208b6c12fc7ab"
   integrity sha1-YqXwf5+XbK58/bHb0+IItsEvx6s=
 
-lg-share.js@^1.0.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/lg-share.js/-/lg-share.js-1.2.2.tgz#7d110e59d36be3682a938c90ab833d8af4eb7645"
-  integrity sha1-fREOWdNr42gqk4yQq4M9ivTrdkU=
+lg-share.js@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/lg-share.js/-/lg-share.js-1.3.0.tgz#5e2047236400743acd3325b189447cb9bb38901a"
+  integrity sha512-5pnbiZ/LdBZiPhvVp/EAnod2yrBczN2YCqvM6f4TX4VbPe4b/9r0jJtvBvxOPMAxRNZrF3/WvOnHcFfvdSc4uA==
 
-lg-thumbnail.js@^1.0.0, lg-thumbnail.js@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/lg-thumbnail.js/-/lg-thumbnail.js-1.1.0.tgz#21bd65900955047787d6f07795eaff5ef0f5f671"
-  integrity sha512-QyYrSaT3q003iOjR1AM8+L1Jh3fhpLaNvvRpNLeE+RltjLEJPwIVMVqy1UMb3C7xyWy7TdyOfIKJxsCVP3yIbA==
+lg-thumbnail.js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/lg-thumbnail.js/-/lg-thumbnail.js-1.2.0.tgz#863bda569ee868229a4f80152e4c026a4c47f686"
+  integrity sha512-qmNFbjLv1spCf3sB8HRX9vW8UtKcgq7qJIg10jLqCozSquhTJwSPUb5vyPgl3cZpgLFjRMiOpIRgBjGrX4inNQ==
 
-lg-video.js@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lg-video.js/-/lg-video.js-1.0.0.tgz#9f117615df233868bd8eb3e442be85470a6e71cb"
-  integrity sha1-nxF2Fd8jOGi9jrPkQr6FRwpuccs=
+lg-video.js@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/lg-video.js/-/lg-video.js-1.3.0.tgz#cb3ffb06e949e5e8a21667ae33faf8d4bfe5e53e"
+  integrity sha512-9P/oxBwHhEqHvPqnjxdQFihMw6AlIllHdOXUDAsr+t6D9u9Bcabsncavap6B8QeCVS+uU2wmgW9GFTfT5sg5Vg==
 
-lg-zoom.js@^1.0.0, lg-zoom.js@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/lg-zoom.js/-/lg-zoom.js-1.0.1.tgz#5e1cdc57409f5e331b573d0fd93dc26479c80cde"
-  integrity sha1-XhzcV0CfXjMbVz0P2T3CZHnIDN4=
+lg-zoom.js@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/lg-zoom.js/-/lg-zoom.js-1.3.0.tgz#0134c030d5f4f0bbc2b5a317bd47243b565bcb99"
+  integrity sha512-qoI0gH+jWw58O6BhJdGWDY2LD4bymp5aEoyGoXhn/KzAcHV2o0RynPMcV0v3RGvpDottISr9Sa2cyAm2hAdxRQ==
 
-lightgallery.js@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/lightgallery.js/-/lightgallery.js-1.1.3.tgz#05d47fa2e09546208a430b97fdf5d32f156515c5"
-  integrity sha512-eo96ApfhSyb+Gv421ntAKxkw3CvJ9UBF9/XjiUfwz0rNWYszSsauG3se+FL606+wrMpsp/wFweqSMPTzoiLbnQ==
+lightgallery.js@^1.2.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/lightgallery.js/-/lightgallery.js-1.4.0.tgz#f4b43b01b2acce43bd7e6d8dbcf1d5541cd2fb03"
+  integrity sha512-TK7auNMSz0sPjotq/VtKH/fe8GPkVRlmFf8F3zVsbFccLJL4r3U1VON+IggyE8Wy04QwbFQxTIIMqL7blibGSA==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -8949,7 +8949,7 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.13.1, react-dom@^16.9.0:
+react-dom@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
   integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
@@ -8964,6 +8964,10 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
+"react-instagram-authless-feed@github:jamesmoriarty/react-instagram-authless-feed#v1.1.1":
+  version "1.1.1"
+  resolved "https://codeload.github.com/jamesmoriarty/react-instagram-authless-feed/tar.gz/17e178b62d3a503efcf1256e088f9ac373c01898"
+
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -8974,45 +8978,25 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-lightgallery@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/react-lightgallery/-/react-lightgallery-0.5.1.tgz#09d917c8fcb1f26eb0cf43acb2e840ac248ff00b"
-  integrity sha512-s6C66PcMzhLCWiWp2ge2vL1gPwjFQ9VAbsvsc/oyS0WKljKxSkZucT6VWH6UwxtjZ+5O1DDNr7KlazOzor4H4w==
+react-lightgallery@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/react-lightgallery/-/react-lightgallery-0.9.0.tgz#9466295f467e9f5535431060d55cc211ef128754"
+  integrity sha512-RgUPXBDu1wQT+BJ4jBAZ5qhSu35/Wx4ZzMBwDDE1gqQeBKHWZAvrljWJRw6cJYudG1cgOzKF2EHV+7+8rVzpLg==
   dependencies:
-    browser-or-node "^1.1.0"
-    lg-fullscreen.js "^1.1.0"
-    lg-thumbnail.js "^1.1.0"
-    lg-video.js "^1.0.0"
-    lg-zoom.js "^1.0.1"
-    lightgallery.js "^1.1.3"
-    lodash "^4.17.15"
-    prop-types "^15.7.2"
-    react "^16.9.0"
-    react-dom "^16.9.0"
-    react-lightgallery "^0.5.0"
-    uniqid "^5.0.3"
-
-react-lightgallery@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/react-lightgallery/-/react-lightgallery-0.6.3.tgz#a56147c9bca3d177336a988a918fdf15fd880aab"
-  integrity sha512-XIuujGcy+uqTBExgOnVDeM9rcz1SnQtm3LuKvDII/kOqhV8Lc+wO4V1dyogVUHDUXnt/tMmbnGxmM4IbHV0sPg==
-  dependencies:
-    browser-or-node "^1.1.0"
-    lg-autoplay.js "^1.0.0"
-    lg-fullscreen.js "^1.0.0"
+    browser-or-node "^1.3.0"
+    hoist-non-react-statics "^3.3.2"
+    lg-autoplay.js "^1.2.0"
+    lg-fullscreen.js "^1.2.0"
     lg-hash.js "^1.0.0"
     lg-pager.js "^1.0.0"
-    lg-share.js "^1.0.0"
-    lg-thumbnail.js "^1.0.0"
-    lg-video.js "^1.0.0"
-    lg-zoom.js "^1.0.0"
-    lightgallery.js "^1.1.3"
+    lg-share.js "^1.3.0"
+    lg-thumbnail.js "^1.2.0"
+    lg-video.js "^1.2.0"
+    lg-zoom.js "^1.2.0"
+    lightgallery.js "^1.2.0"
     lodash "^4.17.15"
     prop-types "^15.7.2"
-    react "^16.9.0"
-    react-dom "^16.9.0"
-    react-lightgallery "^0.5.0"
-    uniqid "^5.0.3"
+    uniqid "^5.2.0"
 
 react-masonry-css@^1.0.14:
   version "1.0.14"
@@ -9119,7 +9103,7 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^16.13.1, react@^16.9.0:
+react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
@@ -10734,7 +10718,7 @@ uniq@^1.0.1:
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
-uniqid@^5.0.3:
+uniqid@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.2.0.tgz#0d0589a7e9ce07116848126764fbff0b68e74329"
   integrity sha512-LH8zsvwJ/GL6YtNfSOmMCrI9piraAUjBfw2MCvleNE6a4pVKJwXjG2+HWhkVeFcSg+nmaPKbMrMOoxwQluZ1Mg==
