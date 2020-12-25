@@ -58,8 +58,15 @@ function Footer() {
               <a href='https://www.instagram.com/an_yongse/' target='_blank' rel='noopener noreferrer'>
                 |&nbsp; &nbsp;instagram
               </a>
-              <a href='https://www.facebook.com/YONGSEDU' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://www.youtube.com/channel/UC6O8uXe3Cn3Dpcl7ChHutsg'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 &nbsp; &nbsp; facebook &nbsp; &nbsp;
+              </a>
+              <a href='mailto:yongsedu@gmail.com' target='_blank' rel='noopener noreferrer'>
+                youtube
               </a>
               <a href='mailto:yongsedu@gmail.com' target='_blank' rel='noopener noreferrer'>
                 email
