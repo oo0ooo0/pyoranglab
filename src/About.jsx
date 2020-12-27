@@ -3,26 +3,41 @@ import styled from 'styled-components';
 
 const StyledAbout = styled.main`
   @keyframes hideSplashScreen {
-    from {
+    0% {
       opacity: 1;
     }
-    to {
-      opacity: 1;
+    80% {
+      opacity: 0.2;
+    }
+    90% {
+      opacity: 0.1;
+    }
+    95% {
+      opacity: 0.05;
+    }
+    100% {
+      opacity: 0;
       visibility: hidden;
     }
   }
   #splash-screen {
     background-color: white;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 100vw;
-    top: 0;
+    top: 0px;
+    left: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 132px;
-    animation: hideSplashScreen 0.3s ease-in-out forwards;
-    animation-delay: 0.3s;
+    font-size: 120px;
+    animation: hideSplashScreen 0.7s ease-in-out forwards;
+    animation-delay: 0.5s;
+    z-index: 100;
+    img {
+      width: 56%;
+      height: auto;
+    }
   }
 
   h2 {
@@ -210,7 +225,7 @@ function About() {
         </div>
       </main>
       <div id='splash-screen'>
-        <image id='splash-screen' href='/img/logoBig' alt='Anyongse img'></image>
+        <img src='/img/logohorise.png' alt='Anyongse img' />
       </div>
     </StyledAbout>
   );
