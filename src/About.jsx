@@ -2,6 +2,29 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledAbout = styled.main`
+  @keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+      visibility: hidden;
+    }
+  }
+  #splash-screen {
+    background-color: white;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+
   h2 {
     font-size: 0px;
   }
@@ -186,6 +209,9 @@ function About() {
           </ul>
         </div>
       </main>
+      <div id='splash-screen'>
+        <image id='splash-screen' href='/img/logoBig' alt='Anyongse img'></image>
+      </div>
     </StyledAbout>
   );
 }
