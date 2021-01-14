@@ -113,7 +113,7 @@ const StyledAbout = styled.main`
     }
   }
 
-  @media (max-width: 580px) {
+  @media (max-width: 640px) {
     main {
       display: block;
       display: flex;
@@ -144,6 +144,7 @@ const StyledAbout = styled.main`
         > p {
           font-size: 4vw;
           line-height: 1.4;
+          margin-bottom: 15vw;
         }
         ul {
           font: normal 400 3.8vw/50px 'Roboto';
