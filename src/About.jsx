@@ -139,7 +139,6 @@ const StyledAbout = styled.main`
           line-height: 1.4;
           font-size: 4vw;
           letter-spacing: 2px;
-          margin: 0px;
         }
         > p {
           font-size: 4vw;
