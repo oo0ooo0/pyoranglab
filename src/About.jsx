@@ -140,6 +140,9 @@ const StyledAbout = styled.main`
           font-size: 4vw;
           letter-spacing: 2px;
         }
+        h6 {
+          margin-bottom: 30px;
+        }
         > p {
           font-size: 4vw;
           line-height: 1.4;
