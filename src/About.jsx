@@ -67,26 +67,26 @@ const StyledAbout = styled.main`
       h3 {
         font: normal 500 30px/34px 'Roboto';
         letter-spacing: 5px;
-        margin: 50px 0px 20px 0px;
+        margin: 50px 0px 16px 0px;
         color: #383838;
       }
       h4 {
         font: normal 500 28px/32px 'Roboto';
         color: #383838;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 30px 0px;
       }
       h5 {
-        font: normal 500 28px/32px 'Roboto';
+        font: normal 400 24px/32px 'Roboto';
         color: #383838;
       }
       h6 {
-        font: normal 500 25px/32px 'Roboto';
-        margin: 20px 0px 50px 0px;
+        font: normal 400 24px/32px 'Roboto';
+        margin: 0px 0px 60px 0px;
       }
       p {
         color: #383838;
-        font: normal 500 23px/25px 'Roboto';
-        margin-bottom: 20px;
+        font: normal 500 23px/30px 'Roboto';
+        margin-bottom: 150px;
       }
       ul {
         font: normal 400 23px/30px 'Roboto';
