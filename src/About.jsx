@@ -144,7 +144,6 @@ const StyledAbout = styled.main`
         > p {
           font-size: 4vw;
           line-height: 1.4;
-          margin-top: 30px;
         }
         ul {
           font: normal 400 3.8vw/50px 'Roboto';
