@@ -32,7 +32,7 @@ const StyledAbout = styled.main`
     align-items: center;
     font-size: 120px;
     animation: hideSplashScreen 0.7s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     z-index: 100;
     img {
       width: 56%;
