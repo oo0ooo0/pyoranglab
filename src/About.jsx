@@ -193,7 +193,7 @@ function About() {
                 <li>시민 연극 (Applied Theatre)</li>
                 <li>교육 연극 (Drama Education)</li>
                 <li>창의적 움직임 드라마 (Creative Movement in Drama)</li>
-                <li>사회 참여 예술 (Socially Engaged Art Education)</li>
+                <li>사회 참여 예술 교육 (Socially Engaged Art Education)</li>
                 <li>아동·청소년 연극 (Children’s and Youth Theatre)</li>
               </ul>
             </li>
