@@ -65,7 +65,7 @@ function Footer() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                youtube&nbsp;&nbsp;
+                youtube&nbsp;&nbsp;&nbsp;
               </a>
               <a href='mailto:yongsedu@gmail.com' target='_blank' rel='noopener noreferrer'>
                 email
@@ -97,7 +97,7 @@ function Footer() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                youtube&nbsp;&nbsp;
+                youtube &nbsp;&nbsp;&nbsp;
               </a>
               <a href='mailto:yongsedu@gmail.com' target='_blank' rel='noopener noreferrer'>
                 email
